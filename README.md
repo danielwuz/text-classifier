@@ -2,16 +2,16 @@
 
 ## Methodology
 
-1. Develop environment
+1.  Develop environment
 
 Our project will be written in Java, using lucene for text analysis, log4j for logging statistic information, so that we can focus on the implementation of different text classification algorithms. 
 
-2. How does this software work?
+2.  How does this software work?
 
 Our software will take a batch of files as training data, as well as user specified test files. The effectiveness and correctness running algorithm under such data will be written into log files. After well trained, this software can be used to classify new text files by appending label to file names or moving them to different directories, depending on user choice.
 
 3. What algorithms will be employed?
-Naïve Bayes, Decision Tree(C4.5), 
+Naive Bayes, Decision Tree(C4.5), 
 
 4. How to get training data? 
 
