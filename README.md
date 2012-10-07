@@ -2,18 +2,18 @@
 
 ## Methodology
 
-1.  Develop environment
+* Develop environment
 
 Our project will be written in Java, using lucene for text analysis, log4j for logging statistic information, so that we can focus on the implementation of different text classification algorithms. 
 
-2.  How does this software work?
+* How does this software work?
 
 Our software will take a batch of files as training data, as well as user specified test files. The effectiveness and correctness running algorithm under such data will be written into log files. After well trained, this software can be used to classify new text files by appending label to file names or moving them to different directories, depending on user choice.
 
-3. What algorithms will be employed?
-Naive Bayes, Decision Tree(C4.5), 
+* What algorithms will be employed?
+Naive Bayes, Decision Tree(C4.5)
 
-4. How to get training data? 
+* How to get training data? 
 
 For English training set, we employ a collection of over 20,000 messages which from 20 different newsgroups from following URL:
 http://www.cs.cmu.edu/afs/cs.cmu.edu/project/theo-20/www/data/news20.html
@@ -21,7 +21,7 @@ http://www.cs.cmu.edu/afs/cs.cmu.edu/project/theo-20/www/data/news20.html
 For Chinese training data, we use Sogou lab data with approximate 10,000 news documents from following URL provided by Sogou, one of the greatest Internet companies in China.
 http://www.sogou.com/labs/dl/c.html
 
-5. What's the input? What's the output? How to evaluate the accuracy of output?
+* What's the input? What's the output? How to evaluate the accuracy of output?
 
 Input contains two parts: training data files and test data files. Both of them should be in text formation with encoding UTF-8. The file directory indicates its category, partitioned by .[DOT]. For example, data files concerning about newsgroups of baseball records are under directory “rec.sport.baseball”. 
 
